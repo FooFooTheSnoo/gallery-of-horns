@@ -5,8 +5,11 @@ class HornedBeast extends React.Component{
     // console.log(this.props.name);
     return(
       <>
-      <p>{this.props.name}</p>
-      </>
+      <h2>{this.props.title}</h2>
+      <img src={this.props.imageUrl} alt=''></img>
+      <p>{this.props.description}</p>
+
+      </> 
     )
   }
 }
