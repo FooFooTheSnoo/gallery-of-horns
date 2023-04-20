@@ -7,28 +7,15 @@ import "./Main.css";
 
 class Main extends React.Component {
   render() {
-
-    const hornedBeastArr = [];
-
-    data.map(beast => {
-      hornedBeastArr.push
-        (
+    return (
+      <div className="parent">
+        {data.map(beast =>
           <HornedBeast
             title={beast.title}
             image_Url={beast.image_url}
             description={beast.description}
-          />)
-
-    })
-    return (
-
-      // fragment
-      <>
-        <div className="parent">
-          {hornedBeastArr}
-        </div>
-      </>
-
+          />)}
+      </div>
     )
   }
 }
