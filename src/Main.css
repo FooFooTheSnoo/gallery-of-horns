@@ -1,0 +1,14 @@
+body {
+  background-color: gainsboro;
+
+
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5px;
+  text-align: center;
+}
+

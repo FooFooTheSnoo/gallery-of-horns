@@ -2,6 +2,47 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Number and name of feature: feature 1. Display images
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 248
+
+Finish time: 309
+
+Actual time needed to complete: 21 mins
+
+<!-- ---------------------------------------------------------------------------- -->
+
+Number and name of feature: feature 2. Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 630
+
+Finish time: 645
+
+Actual time needed to complete: 15 mins
+
+<!-- ---------------------------------------------------------------------------- -->
+
+Number and name of feature: feature 3. Bootstrap
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 715
+
+Finish time: 
+
+Actual time needed to complete:  mins
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
