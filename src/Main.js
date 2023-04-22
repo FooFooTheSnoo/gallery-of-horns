@@ -11,7 +11,6 @@ class Main extends React.Component {
     const hornedBeastArr = [];
 
     data.map(beast => {
-      hornedBeastArr.push
         (
           <HornedBeast
             title={beast.title}
@@ -20,17 +19,6 @@ class Main extends React.Component {
           />)
 
     })
-    return (
-
-      // fragment
-      <>
-        <div className="parent">
-          {hornedBeastArr}
-        </div>
-      </>
-
-    )
   }
 }
-
 export default Main
