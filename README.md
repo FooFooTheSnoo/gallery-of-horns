@@ -32,17 +32,47 @@ Estimate of time needed to complete: 30 mins
 
 Start time: 715
 
+Finish time: 800
+
+Actual time needed to complete:  45mins
+
+<!-- ---------------------------------------------------------------------------- -->
+
+Number and name of feature: feature 4. Display Modal
+
+Estimate of time needed to complete: 2hrs
+
+Start time: 115
+
 Finish time: 
 
-Actual time needed to complete:  mins
+Actual time needed to complete:  45mins
 
+<!-- ---------------------------------------------------------------------------- -->
 
+Number and name of feature: feature 3. Bootstrap
 
+Estimate of time needed to complete: 30 mins
 
+Start time: 715
 
+Finish time: 800
 
+Actual time needed to complete:  45mins
 
+<!-- ---------------------------------------------------------------------------- -->
 
+Number and name of feature: feature 3. Bootstrap
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 715
+
+Finish time: 800
+
+Actual time needed to complete:  45mins
+
+<!-- ---------------------------------------------------------------------------- -->
 ## Available Scripts
 
 In the project directory, you can run:

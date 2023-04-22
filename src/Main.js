@@ -7,18 +7,23 @@ import "./Main.css";
 
 class Main extends React.Component {
   render() {
-
-    const hornedBeastArr = [];
-
-    data.map(beast => {
-        (
-          <HornedBeast
-            title={beast.title}
-            image_Url={beast.image_url}
-            description={beast.description}
-          />)
-
-    })
+    console.log(data);
+    return (
+      <div className="parent">
+        {data.map(beast => {
+          
+          return  <HornedBeast
+              title={beast.title}
+              image_url={beast.image_url}
+              description={beast.description}
+              showBeastModal={this.props.showBeastModal}
+              beast={beast}
+              selectedBeast={this.props.selectedBeast}
+            />
+        })
+        }
+      </div>
+    )
   }
 }
 export default Main

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Main.css";
 
 
+
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
@@ -18,23 +19,28 @@ class HornedBeast extends React.Component {
     })
   }
 
-  render() {
+  handleModalEvent= () => {
+    this.props.selectedBeast(this.props.beast);
+    this.props.showBeastModal();
+  }
 
+
+
+
+  render() {
     return (
-      <>
-        <div className="parent">
-          <Card className="display" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={this.props.image_Url} alt={this.props.title} />
-            <Card.Body>
-              <Card.Title>{this.props.title}</Card.Title>
-              <Card.Text>
-                {this.state.favorited}💖's
-              </Card.Text>
-              <Button variant="primary" onClick={this.incrementFavorited}> Love this!</Button>
-            </Card.Body>
-          </Card>
-        </div>
-      </>
+      <div>
+        <Card className="display" style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={this.props.image_url} alt={this.props.title} onClick={this.handleModalEvent} />
+          <Card.Body>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>
+              {this.state.favorited}💖's
+            </Card.Text>
+            <Button variant="primary" onClick={this.incrementFavorited}> Love this!</Button>
+          </Card.Body>
+        </Card>
+      </div>
     )
   }
 }
