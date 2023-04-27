@@ -10,7 +10,7 @@ class Main extends React.Component {
     console.log(data);
     return (
       <div className="parent">
-        {data.map(beast => {
+        {this.props.beastData.map(beast => {
           
           return  <HornedBeast
               title={beast.title}

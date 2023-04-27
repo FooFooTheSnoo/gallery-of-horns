@@ -39,16 +39,17 @@ class App extends React.Component {
     e.preventDefault();
     let filterHorn;
 
-    if (e.target.value === 1) {
+    if (e.target.value === '1') {
       filterHorn = beastData.filter(beast => beast.horns === 1)
+      console.log("filterHorn", filterHorn)
     }
-    else if (e.target.value === 2) {
+    else if (e.target.value === '2') {
       filterHorn = beastData.filter(beast => beast.horns === 2)
     }
-    else if (e.target.value === 3) {
+    else if (e.target.value === '3') {
       filterHorn = beastData.filter(beast => beast.horns === 3)
     }
-    else if (e.target.value === 100) {
+    else if (e.target.value === '100') {
       filterHorn = beastData.filter(beast => beast.horns === 100)
     }
     else {
@@ -78,7 +79,7 @@ class App extends React.Component {
         <Main
           showBeastModal={this.showBeastModal}
           selectedBeast={this.selectedBeast}
-          beastData={(this.state.beastData)}
+          beastData={this.state.beastData}
         />
         <BeastModal
           showModal={this.state.showModal}
